@@ -71,6 +71,9 @@
 </template>
 
 <script>
+import shoppingImage from '@/assets/shopping.jpg'
+import ecommerceImage from '@/assets/ecommerce.jpg'
+
 export default {
   name: 'About',
   data() {
@@ -85,9 +88,9 @@ export default {
       return `${this.firstName} ${this.lastName}`.trim()
     },
     imageUrl() {
-      return this.selectedImage === 'Shopping'
-        ? '../src/assets/shopping.jpg'
-        : '../src/assets/ecommerce.jpg'
+      if (this.selectedImage === 'Shopping') return shoppingImage
+      if (this.selectedImage === 'Ecommerce') return ecommerceImage
+      return ''
     },
   },
 }

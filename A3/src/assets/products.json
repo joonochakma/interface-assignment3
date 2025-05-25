@@ -5,7 +5,7 @@
     "description": "Noise-cancelling over-ear headphones with long battery life.",
     "price": 129.99,
     "category": "Electronics",
-    "image": "../src/assets/headphones.jpg",
+    "image": "images/headphones.jpg",
     "sale": true
   },
   {
@@ -14,7 +14,7 @@
     "description": "Fitness tracking smartwatch with heart rate monitor.",
     "price": 89.99,
     "category": "Wearables",
-    "image": "../src/assets/smartwatch.jpg",
+    "image": "images/smartwatch.jpg",
     "sale": false
   },
   {
@@ -23,7 +23,7 @@
     "description": "Classic brown wallet made from genuine leather.",
     "price": 45.00,
     "category": "Accessories",
-    "image": "../src/assets/wallet.jpg",
+    "image": "images/wallet.jpg",
     "sale": true
   },
   {
@@ -32,7 +32,7 @@
     "description": "Compact speaker with powerful sound and waterproof design.",
     "price": 59.99,
     "category": "Electronics",
-    "image": "../src/assets/speaker.jpg",
+    "image": "images/speaker.jpg",
     "sale": false
   },
   {
@@ -41,7 +41,7 @@
     "description": "Eco-friendly non-slip mat ideal for all yoga styles.",
     "price": 25.99,
     "category": "Fitness",
-    "image": "../src/assets/yogaMat.jpg",
+    "image": "images/yogaMat.jpg",
     "sale": true
   },
   {
@@ -50,7 +50,7 @@
     "description": "Lightweight and breathable running shoes.",
     "price": 74.50,
     "category": "Footwear",
-    "image": "../src/assets/shoes.jpg",
+    "image": "images/shoes.jpg",
     "sale": false
   },
   {
@@ -59,7 +59,7 @@
     "description": "UV-protective stylish sunglasses for men and women.",
     "price": 35.00,
     "category": "Accessories",
-    "image": "../src/assets/sunglasses.jpg",
+    "image": "images/sunglasses.jpg",
     "sale": true
   }
 ]
