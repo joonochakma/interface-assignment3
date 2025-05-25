@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "date": "2025-05-01",
+    "title": "Summer Sale Starts Now",
+    "content": "Enjoy up to 50% off on selected items storewide.",
+    "category": "Sales"
+  },
+  {
+    "id": 2,
+    "date": "2025-05-02",
+    "title": "New Arrivals This Week",
+    "content": "Check out our brand new collection of electronics and fashion.",
+    "category": "Products"
+  },
+  {
+    "id": 3,
+    "date": "2025-05-03",
+    "title": "Free Shipping Extended",
+    "content": "Get free shipping on all orders above $100.",
+    "category": "Shipping"
+  },
+  {
+    "id": 4,
+    "date": "2025-05-04",
+    "title": "Customer Rewards Updated",
+    "content": "Loyalty program now includes exclusive early access deals.",
+    "category": "Updates"
+  },
+  {
+    "id": 5,
+    "date": "2025-05-05",
+    "title": "Meet Our New Brand Partner",
+    "content": "We're teaming up with EcoGoods to promote sustainable shopping.",
+    "category": "Partnership"
+  },
+  {
+    "id": 6,
+    "date": "2025-05-06",
+    "title": "Mobile App Launching Soon",
+    "content": "Shop easier with our new mobile app coming this month.",
+    "category": "Tech"
+  },
+  {
+    "id": 7,
+    "date": "2025-05-07",
+    "title": "Flash Deals Every Friday",
+    "content": "Look out for surprise deals posted every Friday at noon.",
+    "category": "Sales"
+  },
+  {
+    "id": 8,
+    "date": "2025-05-08",
+    "title": "Customer Feedback Wanted",
+    "content": "Help us improve by sharing your shopping experience.",
+    "category": "Community"
+  },
+  {
+    "id": 9,
+    "date": "2025-05-09",
+    "title": "Warehouse Upgrade Complete",
+    "content": "Faster deliveries now thanks to our expanded facility.",
+    "category": "Logistics"
+  },
+  {
+    "id": 10,
+    "date": "2025-05-10",
+    "title": "Mother’s Day Gift Guide",
+    "content": "Explore our curated collection for Mum’s special day.",
+    "category": "Events"
+  }
+]

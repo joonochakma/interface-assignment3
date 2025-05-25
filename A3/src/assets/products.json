@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with long battery life.",
+    "price": 129.99,
+    "category": "Electronics",
+    "image": "../src/assets/headphones.jpg",
+    "sale": true
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch",
+    "description": "Fitness tracking smartwatch with heart rate monitor.",
+    "price": 89.99,
+    "category": "Wearables",
+    "image": "../src/assets/smartwatch.jpg",
+    "sale": false
+  },
+  {
+    "id": 3,
+    "name": "Leather Wallet",
+    "description": "Classic brown wallet made from genuine leather.",
+    "price": 45.00,
+    "category": "Accessories",
+    "image": "../src/assets/wallet.jpg",
+    "sale": true
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "description": "Compact speaker with powerful sound and waterproof design.",
+    "price": 59.99,
+    "category": "Electronics",
+    "image": "../src/assets/speaker.jpg",
+    "sale": false
+  },
+  {
+    "id": 5,
+    "name": "Yoga Mat",
+    "description": "Eco-friendly non-slip mat ideal for all yoga styles.",
+    "price": 25.99,
+    "category": "Fitness",
+    "image": "../src/assets/yogaMat.jpg",
+    "sale": true
+  },
+  {
+    "id": 6,
+    "name": "Running Shoes",
+    "description": "Lightweight and breathable running shoes.",
+    "price": 74.50,
+    "category": "Footwear",
+    "image": "../src/assets/shoes.jpg",
+    "sale": false
+  },
+  {
+    "id": 7,
+    "name": "Sunglasses",
+    "description": "UV-protective stylish sunglasses for men and women.",
+    "price": 35.00,
+    "category": "Accessories",
+    "image": "../src/assets/sunglasses.jpg",
+    "sale": true
+  }
+]

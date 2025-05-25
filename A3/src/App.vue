@@ -1,47 +1,71 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/news">News</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/shop">Shop</router-link> |
+      <router-link to="/cart">Cart</router-link> |
+      <router-link v-if="!isAuthenticated" to="/register">Register</router-link> |
+      <router-link v-if="!isAuthenticated" to="/login">Login</router-link>
+      <router-link v-if="isAdmin" to="/dashboard">Admin Dashboard</router-link>
+      <span v-if="isAuthenticated">
+        | <a href="#" @click.prevent="logout">Logout</a>
+      </span>
+    </nav>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+      <router-view />
+    </main>
+  </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      user: null
+    };
+  },
+  computed: {
+    isAuthenticated() {
+      return !!this.user;
+    },
+    isAdmin() {
+      return this.user?.role === 'admin';
+    }
+  },
+  created() {
+    const storedUser = localStorage.getItem('authUser');
+    this.user = storedUser ? JSON.parse(storedUser) : null;
+  },
+  methods: {
+    logout() {
+      localStorage.removeItem('authUser');
+      this.user = null; // reset user state
+      this.$router.push('/');
+    }
+  }
+};
+</script>
+
+
 <style scoped>
-header {
-  line-height: 1.5;
+nav {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
 }
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+nav a.router-link-exact-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+main {
+  padding: 2rem;
 }
 </style>
