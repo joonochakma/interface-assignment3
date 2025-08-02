@@ -14,5 +14,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/cos30043/s104582560/A3', // Set the base path for the subdirectory
+  base: '/', // Set the base path for the subdirectory
 })
