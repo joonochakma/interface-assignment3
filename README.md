@@ -1,6 +1,22 @@
 # 🛍️ Vue.js E-Commerce Web App
 
-A simple multi-page e-commerce-style web application built with Vue.js 3, Vue Router, and Bootstrap. This project was created for Assignment 3 to demonstrate key front-end development skills such as routing, component use, and user interaction.
+A simple multi-page e-commerce-style web application built with Vue.js 3, Vue Router, and Bootstrap. This project was created for Assignment 3 to demonstrate key front-end development skills such as routing, component use, and user interaction. To access the logging in component, use [Accounts Credentials](https://github.com/joonochakma/interface-assignment3/blob/main/A3/src/assets/users.json) 
+```
+[
+  {
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "name": "Regular User",
+    "email": "user@example.com",
+    "password": "user123",
+    "role": "user"
+  }
+]
+```
 
 ---
 
