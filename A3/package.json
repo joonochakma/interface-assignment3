@@ -32,11 +32,11 @@
     "vite-plugin-vue-devtools": "^7.7.2"
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "A3/**/*.{js,vue}": [
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{json,css,html}": [
+    "A3/**/*.{json,css,html}": [
       "prettier --write"
     ]
   }
