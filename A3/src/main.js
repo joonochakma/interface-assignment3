@@ -29,3 +29,4 @@ app.directive('sale', {
 });
 
 app.use(router).mount('#app');
+// test
