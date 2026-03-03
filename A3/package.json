@@ -17,6 +17,8 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.4.2",
+    "@commitlint/config-conventional": "^20.4.2",
     "@eslint/js": "^9.22.0",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -30,7 +32,12 @@
     "vite-plugin-vue-devtools": "^7.7.2"
   },
   "lint-staged": {
-    "*.{js,vue}": ["eslint --fix", "prettier --write"],
-    "*.{json,css,html}": ["prettier --write"]
+    "*.{js,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,html}": [
+      "prettier --write"
+    ]
   }
 }
